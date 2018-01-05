@@ -93,15 +93,21 @@ class UseAnnotation {
 
 ![CustomeAnnotation](http://www.nextree.co.kr/content/images/2016/09/eykim-20140205-annotation-01.jpg)
 
-- 효율적인 사용의 예
+### 효율적인 사용의 예
 
 ![도메인 객체마다 그에 맞는 방법으로 저장](http://www.nextree.co.kr/content/images/2016/09/eykim-20140206-annotation-03.png)
+
+- 도메인 객체마다 그에 맞는 방법으로 저장
 - 가장 원초적인 방법으로 객체가 늘어날 때 마다 데이터 관리방법을 추가 지정해 주어야 함.
 
 ![특정 인터페이스를 상속한 도메인 객체들을 일관된 방법으로 저장](http://www.nextree.co.kr/content/images/2016/09/eykim-20140206-annotation-04.png)
+
+- 특정 인터페이스를 상속한 도메인 객체들을 일관된 방법으로 저장
 - 불필요한 인터페이스 상속받아야 함. 개발자는 자신이 구현하려는 비즈니스와 관련없이 데이터 저장방법을 위해서 소스코드에 상속을 추가해야 하는 불편함이 있음.
 
 ![@Annotation을 이용해서 저장](http://www.nextree.co.kr/content/images/2016/09/eykim-20140206-annotation-05.png)
+
+- @Annotation을 이용해서 저장
 - 사용하는 것이 낯설다는 단점을 제외하고는(주관적이지만) 위의 문제들을 해결하면서 통제가 쉬운 효율적인 방법
 
 
