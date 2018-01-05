@@ -50,14 +50,15 @@ public class AnnoMain {
 	public String pw();
 }
 
-class UseAnnotation {
-	String key = "Student";
 
-	@GetConnection(url = "주소", id = "아이디", pw = "비밀번호")
-	// 1. 어노테이션을 사용하면 소스코드를 사용하는 것보다
+@GetConnection(url = "주소", id = "아이디", pw = "비밀번호")
+//@CustomAnnotation(key = "student")
+class UseAnnotation {
 	
+	// 1. 어노테이션을 사용하면 소스코드를 사용하는 것보다
+
 	// 2.코드에 대한 예외 처리가 필요없으니까....
-	//사전에 미리 컴파일 하기전에 에러처리가 된다...
+	// 사전에 미리 컴파일 하기전에 에러처리가 된다...
 	//
 	public void process() {
 		int a = 156;
